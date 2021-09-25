@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic.html -->
+    <title>eemeli</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="empty.png" />
+    <meta name="description" content="local idiot does design" />
+    <meta name="viewport" content="width=device-width" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@eemelidesign">
+    <meta name="twitter:creator" content="@eemelidesign">
+    <meta name="twitter:title" content="eemeli">
+    <meta name="twitter:description" content="NATURE">
+    <meta name="twitter:picture">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+        <h1 class="head">NATURE</h1>
+        <p class="info">
+            eemeli <br>
+            ~~~~~~~~<br>
+            graphics<br>
+            <a href="https://instagram.com/eemelihq" target="_blank">instagram</a><br>
+            <a target="_blank" href="mailto:eemeliruoh@gmail.com">email</a><br>
+            <img class="logo" src="logo.svg">
+            </p>
+        </div>
+    </div>
+    <div id="vanta">
+        <canvas class="vanta-canvas"></canvas>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
+    <script>
+    VANTA.TRUNK({
+    el: "#vanta",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 2.00,
+    scaleMobile: .5,
+    color: 0xff0000,
+    backgroundColor: 0x0,
+    spacing: 15,
+    chaos: 40.00
+})
+</script>
+</body>
